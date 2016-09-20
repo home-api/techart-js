@@ -1,8 +1,7 @@
 function averageOfEven(array) {
-    var oddElementsCount = 0;
-    var oddElementsSum = 0;
+    var oddElementsCount = 0, oddElementsSum = 0, element;
     for (var i = 0; i < array.length; i++) {
-        var element = array[i];
+        element = array[i];
         if (element % 2 == 1) {
             oddElementsCount++;
             oddElementsSum += element;
