@@ -10,7 +10,7 @@ function sort(array) {
             indexToInsert = k;
         }
 
-        indexToInsert != null && (newArray[indexToInsert] = insertValue);
+        newArray[indexToInsert] = insertValue;
     }
     return newArray;
 }
